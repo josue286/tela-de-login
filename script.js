@@ -4,6 +4,6 @@ function mostraNome(){
     if(nome == ''){
         alert('Por favor insira seu nome!')
     } else {
-        span.innerHTML = 'Seja bem vindo ' + nome
+        span.innerHTML = '<p> Seja bem vindo <strong> '+ nome +'</p> </strong>'
     }
 }
